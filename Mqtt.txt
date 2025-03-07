@@ -1,0 +1,7 @@
+reglage 1:
+
+netsh interface portproxy add v4tov4 listenaddress=192.168.45.168 listenport=1883 connectaddress=127.0.0.1 connectport=1883
+
+show:
+
+netsh interface portproxy show all
