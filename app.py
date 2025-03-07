@@ -2,6 +2,7 @@ import time
 import paho.mqtt.client as mqtt
 
 # Paramètres du broker MQTT
+# modifiable
 broker = "192.168.45.168"
 port = 1883
 topic = "home/led"  # Le topic que l'ESP32 écoute
